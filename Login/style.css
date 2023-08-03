@@ -14,8 +14,8 @@ input:focus{
 body{
     height:100vh;
     font-size: 15px;
-     font-family: 'Poppins', sans-serif;;
-    background-color: aquamarine;
+     font-family: 'Poppins', sans-serif;
+     background-image: url('BG.png');
     text-align: center;
     
 }
