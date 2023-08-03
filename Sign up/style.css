@@ -40,7 +40,7 @@ body {
     transform: translate(-50%,-50%);
 }
 #Email{
-    margin-top: 30px;
+    margin-top: -30px;
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent; 
@@ -54,7 +54,7 @@ body {
 }
 
 .Submit{
-  border-radius: 5px;
+  border-radius: 60px;
   border-color: transparent;
   background-color: aquamarine;
   color:white;
