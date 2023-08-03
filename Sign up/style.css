@@ -4,7 +4,7 @@ body {
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
     text-align:center;
-    font-size: 15px
+    font-size: 15px;
 }
 .container {
     position: absolute;
@@ -39,14 +39,14 @@ body {
     left:50%;
     transform: translate(-50%,-50%);
 }
-.Email{
+#Email{
     margin-top: 30px;
     border-bottom: solid; 
     border-style: none none solid;
-    background-color: transparent;
+    background-color: transparent; 
 }
 
-.password{
+#Password{
     margin-top: 30px;
     border-bottom: solid; 
     border-style: none none solid;
