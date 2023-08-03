@@ -16,6 +16,8 @@ body{
     font-size: 15px;
      font-family: 'Poppins', sans-serif;;
     background-color: aquamarine;
+    text-align: center;
+    
 }
 
 .container{
@@ -26,6 +28,17 @@ body{
     background-color: aqua;
     height:560px;
     width:400px;
+    box-shadow:
+  13.5px 13.7px 5.2px -27px rgba(0, 0, 0, 0.09),
+  25.7px 26px 11.5px -27px rgba(0, 0, 0, 0.094),
+  36.8px 37.1px 19.3px -27px rgba(0, 0, 0, 0.097),
+  47px 47.5px 29.2px -27px rgba(0, 0, 0, 0.099),
+  56.8px 57.4px 42.1px -27px rgba(0, 0, 0, 0.1),
+  67.1px 67.8px 59.5px -27px rgba(0, 0, 0, 0.1),
+  79.1px 79.9px 84.4px -27px rgba(0, 0, 0, 0.097),
+  95.6px 96.6px 122.6px -27px rgba(0, 0, 0, 0.092),
+  123.3px 124.6px 189px -27px rgba(0, 0, 0, 0.082),
+  192px 194px 336px -27px rgba(0, 0, 0, 0.065);
 }
 
 .Log-in-area{
