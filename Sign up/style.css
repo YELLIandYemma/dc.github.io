@@ -54,10 +54,17 @@ body {
 }
 
 .Submit{
-  border-radius: 60px;
+  margin-top: 60px;
+  border-radius: 5px;
   border-color: transparent;
-  background-color: aquamarine;
+  background-color: rgba(14, 141, 179, 0.793);
   color:white;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
+  font-size: 18px;
+}
+
+input:focus{
+  outline-style: none;
+  box-shadow: none;
 }
