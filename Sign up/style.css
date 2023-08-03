@@ -4,7 +4,7 @@ body {
     background-color: aquamarine;
     font-family: 'Poppins', sans-serif;
     text-align:center;
-    font-size: 15px
+    font-size: 15px;
 }
 .container {
     position: absolute;
@@ -40,12 +40,31 @@ body {
     transform: translate(-50%,-50%);
 }
 #Email{
+    margin-top: -30px;
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent; 
 }
+
 #Password{
+    margin-top: 30px;
     border-bottom: solid; 
     border-style: none none solid;
-    background-color: transparent; 
+    background-color: transparent;
+}
+
+.Submit{
+  margin-top: 60px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgba(14, 141, 179, 0.793);
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input:focus{
+  outline-style: none;
+  box-shadow: none;
 }
