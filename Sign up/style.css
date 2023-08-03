@@ -39,13 +39,13 @@ body {
     left:50%;
     transform: translate(-50%,-50%);
 }
-.Email{
+#Email{
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent; 
 }
 
-.password{
+#Password{
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent;
