@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    height:100vh;
+    background-color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    font-size: 15px
+}
+.container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    align-content: center;
+    width: 400px;
+    height: 560px;
+    border: 0px solid ;
+    background-color: aqua;
+    border-radius: 5%;
+    box-shadow:
+  13.5px 13.7px 5.2px -27px rgba(0, 0, 0, 0.09),
+  25.7px 26px 11.5px -27px rgba(0, 0, 0, 0.094),
+  36.8px 37.1px 19.3px -27px rgba(0, 0, 0, 0.097),
+  47px 47.5px 29.2px -27px rgba(0, 0, 0, 0.099),
+  56.8px 57.4px 42.1px -27px rgba(0, 0, 0, 0.1),
+  67.1px 67.8px 59.5px -27px rgba(0, 0, 0, 0.1),
+  79.1px 79.9px 84.4px -27px rgba(0, 0, 0, 0.097),
+  95.6px 96.6px 122.6px -27px rgba(0, 0, 0, 0.092),
+  123.3px 124.6px 189px -27px rgba(0, 0, 0, 0.082),
+  192px 194px 336px -27px rgba(0, 0, 0, 0.065);
+  }
+  .h1 {
+    font-size: 30px;
+  }
+
+  .Sign-Up-area{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.Email{
+    border-bottom: solid; 
+    border-style: none none solid;
+    background-color: transparent;
+}
+
+.password{
+    border-bottom: solid; 
+    border-style: none none solid;
+    background-color: transparent;
+}
