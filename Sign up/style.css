@@ -5,7 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align:center;
     font-size: 15.00px;
-    background: linear-gradient(336deg, rgba(255,255,255,1) 0%, rgba(169,202,199,1) 35%, rgba(0,212,255,1) 100%);
+    background:linear-gradient(#44008b,#9f45b0,#e54ed0);
 }
 .container {
     position: absolute;
