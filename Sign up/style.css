@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
     height:100vh;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     text-align:center;
-    font-size: 15px;
-    background:linear-gradient(#44008b,#9f45b0,#e54ed0);
+    font-size: 15.00px;
+    background: linear-gradient(336deg, rgba(255,255,255,1) 0%, rgba(169,202,199,1) 35%, rgba(0,212,255,1) 100%);
 }
 .container {
     position: absolute;
@@ -63,6 +63,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 18px;
+  cursor: pointer;
 }
 
 input:focus{
