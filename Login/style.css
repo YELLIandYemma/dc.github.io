@@ -89,9 +89,13 @@ body{
   }
 .new-to-svv{
   display: flex;
-  transform: translate(90px,350px);
+  transform:translate(90px,300px);
 }
 #snup{
   margin-left:3px;
   text-decoration: none;
 }
+.remme{
+  transform: translate(100px,290px);
+}
+
