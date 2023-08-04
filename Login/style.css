@@ -16,7 +16,7 @@ body{
     width: 100vw;
     font-size: 15px;
      font-family: 'Poppins', sans-serif;
-     background:linear-gradient(#44008b,#9f45b0,#e54ed0,#ffe4f2);
+     background:linear-gradient(#44008b,#9f45b0,#e54ed0);
     text-align: center;
     
 }
@@ -81,9 +81,17 @@ body{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
   }
 
   h1{
     font-size: 55px;
   }
-
+.new-to-svv{
+  display: flex;
+  transform: translate(90px,350px);
+}
+#snup{
+  margin-left:3px;
+  text-decoration: none;
+}
