@@ -5,6 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align:center;
     font-size: 15px;
+    background:linear-gradient(#44008b,#9f45b0,#e54ed0);
 }
 .container {
     position: absolute;
@@ -15,7 +16,7 @@ body {
     width: 400px;
     height: 560px;
     border: 0px solid ;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     border-radius: 5%;
     box-shadow:
   13.5px 13.7px 5.2px -27px rgba(0, 0, 0, 0.09),
@@ -30,7 +31,7 @@ body {
   192px 194px 336px -27px rgba(0, 0, 0, 0.065);
   }
   .h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
 
   .Sign-Up-area{
