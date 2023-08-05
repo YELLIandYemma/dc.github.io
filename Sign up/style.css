@@ -10,7 +10,6 @@ body {
     font-size: 15.00px;
     background-image: url("jeff.gif");
     background-size:cover;
-    overflow-y: none;
 }
 .container {
     position: absolute;
