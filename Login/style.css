@@ -11,13 +11,30 @@ input:focus{
     box-sizing: border-box;
 }
 
+img{
+  transform: translate(400.6px,-83px);
+  border-top-right-radius:5% ;
+  border-bottom-right-radius: 5%;
+  height: 560px;
+  width:420px;
+  background-color: rgba(207, 207, 207, 1);
+  box-shadow:
+    26px 11px 26px 11px rgba(0, 0, 0, 1),
+    34px 11px 13px 10px rgba(77, 73, 73, 1);
+  transition: transform 237ms ease-out;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+}
+
+
 body{
-    height:100vh;
-    width: 100vw;
+  height: 100vh;
     font-size: 15px;
      font-family: 'Poppins', sans-serif;
      background:linear-gradient(#44008b,#9f45b0,#e54ed0);
     text-align: center;
+    overflow-y: hidden;
+    
     
 }
 
@@ -29,23 +46,21 @@ body{
     margin-bottom: 2.5px;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-90%,-50%);
     background-color: transparent;
     height:560px;
     width:400px;
     background-color: white;
-    border-radius: 5%;
-    box-shadow: 13.5px 13.7px 5.2px -27px rgba(0, 0, 0, 0.09),
-    25.7px 26px 11.5px -27px rgba(0, 0, 0, 0.094),
-    36.8px 37.1px 19.3px -27px rgba(0, 0, 0, 0.097),
-    47px 47.5px 29.2px -27px rgba(0, 0, 0, 0.099),
-    56.8px 57.4px 42.1px -27px rgba(0, 0, 0, 0.1),
-    67.1px 67.8px 59.5px -27px rgba(0, 0, 0, 0.1),
-    79.1px 79.9px 84.4px -27px rgba(0, 0, 0, 0.097),
-    95.6px 96.6px 122.6px -27px rgba(0, 0, 0, 0.092),
-    123.3px 124.6px 189px -27px rgba(0, 0, 0, 0.082),
-    192px 194px 336px -27px rgba(0, 0, 0, 0.065);
-  ;;
+    border-top-left-radius:5% ;
+  border-bottom-left-radius: 5%;
+  border: 0px solid rgba(100, 100, 100, 1);
+  box-shadow:
+    26px 11px 26px 11px rgba(0, 0, 0, 1),
+    34px 11px 13px 10px rgba(77, 73, 73, 1);
+  transition: transform 237ms ease-out;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(0px);
+  
 
 }
 
@@ -83,19 +98,23 @@ body{
     font-size: 18px;
     cursor: pointer;
   }
+  #sub-btn:hover{ 
+    background-color: rgba(9, 96, 123, 0.993);
+    transition-delay: 0.1s;
+  }
 
   h1{
     font-size: 55px;
   }
 .new-to-svv{
   display: flex;
-  transform:translate(90px,300px);
+  transform:translate(90px,-250px);
 }
 #snup{
   margin-left:3px;
   text-decoration: none;
 }
 .remme{
-  transform: translate(100px,290px);
+  transform: translate(100px,-260px);
 }
 
