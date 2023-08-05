@@ -1,5 +1,7 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');  
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Poppins:wght@200&display=swap');
+
 
 input:focus{
     outline-style: none;
@@ -12,26 +14,21 @@ input:focus{
 }
 
 img{
-  transform: translate(400.6px,-83px);
+  transform: translate(400.6px,-72px);
   border-top-right-radius:5% ;
   border-bottom-right-radius: 5%;
   height: 560px;
   width:420px;
   background-color: rgba(207, 207, 207, 1);
-  box-shadow:
-    26px 11px 26px 11px rgba(0, 0, 0, 1),
-    34px 11px 13px 10px rgba(77, 73, 73, 1);
-  transition: transform 237ms ease-out;
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
+  
 }
 
 
 body{
   height: 100vh;
     font-size: 15px;
-     font-family: 'Poppins', sans-serif;
-     background:linear-gradient(#44008b,#9f45b0,#e54ed0);
+     font-family: 'Chakra Petch', sans-serif;
+     background-image: url('bg.jpg');
     text-align: center;
     overflow-y: hidden;
     
@@ -40,10 +37,10 @@ body{
 
 .container{
     position: absolute;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2.5px;
-    margin-bottom: 2.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
     top:50%;
     left:50%;
     transform: translate(-90%,-50%);
@@ -54,14 +51,6 @@ body{
     border-top-left-radius:5% ;
   border-bottom-left-radius: 5%;
   border: 0px solid rgba(100, 100, 100, 1);
-  box-shadow:
-    26px 11px 26px 11px rgba(0, 0, 0, 1),
-    34px 11px 13px 10px rgba(77, 73, 73, 1);
-  transition: transform 237ms ease-out;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(0px);
-  
-
 }
 
 .Log-in-area{
@@ -69,6 +58,7 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,); 
 }
 
 #Email{
@@ -76,7 +66,7 @@ body{
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent;
-    margin:15px;
+    margin:30px;
     padding:0.75px;
 }
 
@@ -115,6 +105,9 @@ body{
   text-decoration: none;
 }
 .remme{
-  transform: translate(100px,-260px);
+  transform: translate(100px,-350px);
 }
-
+::placeholder{
+  font-family:'Chakra Petch', sans-serif;
+  color:rgb(0, 0, 0);
+}
