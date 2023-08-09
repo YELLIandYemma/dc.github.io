@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Poppins:wght@200&display=swap');
 
 
 
 body {
     height:100vh;
     background-color: rgb(255, 255, 255);
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Chakra Petch', sans-serif;
     text-align:center;
     font-size: 15.00px;
     background-image: url("jeff.gif");
@@ -49,6 +50,7 @@ body {
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent; 
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .Password{
@@ -56,21 +58,34 @@ body {
     border-bottom: solid; 
     border-style: none none solid;
     background-color: transparent;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .Submit{
   margin-top: 60px;
   border-radius: 5px;
   border-color: transparent;
-  background-color: rgba(14, 141, 179, 0.793);
+  background-color:slateblue;
   color:white;
-  font-family: 'Press Start 2P', cursive;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 
 input:focus{
   outline-style: none;
   box-shadow: none;
+}
+
+.SubmitB{
+  margin-top: 30px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgba(14, 141, 179, 0.32);
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
