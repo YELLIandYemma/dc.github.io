@@ -19,7 +19,7 @@ img{
   border-bottom-right-radius: 5%;
   height: 560px;
   width:420px;
-  background-color: rgba(207, 207, 207, 1);
+  background-image: url('gb.png');
   blur:6px;
   
 }
@@ -87,7 +87,7 @@ body{
     border-color: transparent;
     background-color: rgba(14, 141, 179, 0.793);
     color:white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
