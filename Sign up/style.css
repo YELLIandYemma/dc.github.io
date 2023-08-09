@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Poppins:wght@200&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body {
     height:100vh;
     background-color: rgb(255, 255, 255);
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align:center;
     font-size: 15.00px;
-    background-image: url("gb.jpg");
-    background-size:cover;
-    overflow-y: hidden  ;
+    background:linear-gradient(#44008b,#9f45b0,#e54ed0);
 }
 .container {
     position: absolute;
@@ -36,8 +31,7 @@ body {
   192px 194px 336px -27px rgba(0, 0, 0, 0.065);
   }
   .h1 {
-    font-size: 40px;
-    font-family: ;
+    font-size: 50px;
   }
 
   .Sign-Up-area{
@@ -66,9 +60,9 @@ body {
   border-color: transparent;
   background-color: rgba(14, 141, 179, 0.793);
   color:white;
-  font-family: 'Chakra Petch', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   cursor: pointer;
 }
 
