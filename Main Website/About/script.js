@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
         document.querySelector(".preloader").style.display = "none";
         document.querySelector(".content").style.display = "block";
-    }, 3000); // 3000 milliseconds (3 seconds)
+    }, 300); // 3000 milliseconds (3 seconds)
 });
