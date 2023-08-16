@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-body, html {
+body{
     margin: 0;
     padding: 0;
+    background-image:url('bg.png');
+    overflow-x: hidden;
 }
 
 .preloader {
@@ -40,4 +42,45 @@ body, html {
 .content {
     display: none;
 }
-    
+.heading-1{
+    transform: translate(0,-100000px);
+}
+#Childhood{
+    background-color:#66ff33 ;
+    width: fit-content;
+    height: fit-content;
+    transform: translate(5cm,2cm);
+}
+#childhoodpt2{
+    background-color:#66ff33 ;
+    width: fit-content;
+    height: fit-content;        
+    transform: translate(20cm,5cm);
+}
+#collageLife{
+    background-color:#66ff33 ;
+    width: fit-content;
+   height: fit-content;     
+    transform: translate(5cm,8cm);
+}
+#Path-to-American-Academia{
+    background-color:#66ff33 ;
+    width: fit-content;
+    height: fit-content;   
+    transform: translate(22cm,11cm); 
+}
+header{
+    transform: translateY(0.5cm);
+}
+
+button{
+    background-color: transparent;
+    font-size: 15px;
+    border-color: transparent;
+    margin: 1cm;
+}
+button:hover{
+    background-color: #cc66ff;
+    cursor: pointer;
+
+}
