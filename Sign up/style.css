@@ -35,14 +35,14 @@ body {
   }
   .h1 {
     font-size: 50px;
-    margin-bottom: 100px;
+    margin-bottom:100px ;
   }
 
   .Sign-Up-area{
     position: absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-40%);
 }
 #Email{
     margin-top: -30px;
@@ -98,35 +98,35 @@ input:focus{
 #googimg{
   height: 64px;
   width: 64px;  
-  transform: translate(107.5px,-125px);
+  transform: translate(225px,-80px);
  border-style:solid;
  border: none;
  cursor: pointer;
 }
 #instaimg{
-  height: 62px;
-  width: 62px;  
-  transform: translate(-80px,-200px);
+  height: 64px;
+  width: 64px;  
+  transform: translate(-80px,-150px);
   border-style:solid;
   border-color:transparent;
   border-radius: 100%;
   cursor: pointer;
 }
 #facebook{
-  height: 62px;
-  width: 62px;  
-  transform: translate(-9px,-300px);
+  height: 58px;
+  width: 58px;  
+  transform: translate(-9px,-230px);
   background-color: transparent ;
   border-radius: 100%;
-  transform: translate(-15px,-270px);
+  transform: translate(-15px,-226px);
   cursor: pointer;
 }
 #facebookimg{
-  height: 62px;
-  width: 62px;  
+  height: 64px;
+  width: 64px;  
 }
 
-.SubmitB{
+#submit{
   margin-top: 30px;
   border-radius: 5px;
   border-color: transparent;
