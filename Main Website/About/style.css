@@ -67,7 +67,13 @@ body{
     background-color:#66ff33 ;
     width: fit-content;
     height: fit-content;   
-    transform: translate(22cm,11cm); 
+    transform: translate(20cm,11cm); 
+}
+#Academic-Journey-and-Residences{
+     transform: translate(5cm,14cm);
+     background-color: #66ff33;
+    width: fit-content;
+    height: fit-content;  } 
 }
 header{
     transform: translateY(0.5cm);
@@ -96,3 +102,4 @@ body::-webkit-scrollbar {
     background-color: rgb(0, 118, 187);
     outline: 1px solid white;
   }
+  
