@@ -20,10 +20,18 @@ img{
   height: 560px;
   width:420px;
   background-image: url('gb.png');
-  blur:6px;
-  
+  box-shadow:
+  13.5px 13.7px 5.2px -27px rgba(0, 0, 0, 0.09),
+  25.7px 26px 11.5px -27px rgba(0, 0, 0, 0.094),
+  36.8px 37.1px 19.3px -27px rgba(0, 0, 0, 0.097),
+  47px 47.5px 29.2px -27px rgba(0, 0, 0, 0.099),
+  56.8px 57.4px 42.1px -27px rgba(0, 0, 0, 0.1),
+  67.1px 67.8px 59.5px -27px rgba(0, 0, 0, 0.1),
+  79.1px 79.9px 84.4px -27px rgba(0, 0, 0, 0.097),
+  95.6px 96.6px 122.6px -27px rgba(0, 0, 0, 0.092),
+  123.3px 124.6px 189px -27px rgba(0, 0, 0, 0.082),
+  192px 194px 336px -27px rgba(0, 0, 0, 0.065);
 }
-.filter-blur{}
 
 
 body{
@@ -32,8 +40,6 @@ body{
      font-family: 'Chakra Petch', sans-serif;
      background-image: url('bg.jpg');
     text-align: center;
-    
-    backdrop-filter: blur(3px);
     overflow-y: hidden  ;
     
 }
@@ -51,10 +57,21 @@ body{
     background-color: transparent;
     height:560px;
     width:400px;
-    background-color: rgba(255, 255, 255, 0.858);
+    background-color:white;
     border-top-left-radius:5% ;
   border-bottom-left-radius: 5%;
   border: 0px solid rgba(100, 100, 100, 1);
+  box-shadow:
+  13.5px 13.7px 5.2px -27px rgba(0, 0, 0, 0.09),
+  25.7px 26px 11.5px -27px rgba(0, 0, 0, 0.094),
+  36.8px 37.1px 19.3px -27px rgba(0, 0, 0, 0.097),
+  47px 47.5px 29.2px -27px rgba(0, 0, 0, 0.099),
+  56.8px 57.4px 42.1px -27px rgba(0, 0, 0, 0.1),
+  67.1px 67.8px 59.5px -27px rgba(0, 0, 0, 0.1),
+  79.1px 79.9px 84.4px -27px rgba(0, 0, 0, 0.097),
+  95.6px 96.6px 122.6px -27px rgba(0, 0, 0, 0.092),
+  123.3px 124.6px 189px -27px rgba(0, 0, 0, 0.082),
+  192px 194px 336px -27px rgba(0, 0, 0, 0.065);
 }
 
 .Log-in-area{
@@ -107,9 +124,14 @@ body{
 #snup{
   margin-left:3px;
   text-decoration: none;
+  cursor: pointer;
 }
 .remme{
   transform: translate(100px,-320px);
+  cursor: pointer;
+}
+checkbox{
+  cursor: pointer;
 }
 ::placeholder{
   font-family:'Chakra Petch', sans-serif;
@@ -134,9 +156,10 @@ body{
 #googimg{
   height: 62px;
   width: 62px;  
-  transform: translate(95px,10px);
+  transform: translate(90px,10px);
  border-style:solid;
  border: none;
+ cursor: pointer;
 }
 #instaimg{
   height: 68px;
@@ -145,13 +168,15 @@ body{
   border-style:solid;
   border-color:transparent;
   border-radius: 100%;
+  cursor: pointer;
 }
 #facebookimg{
-  height: 64px;
-  width: 65px;  
+  height: 62px;
+  width: 62px;  
   transform: translate(-9px,-54px);
   background-color: transparent ;
   border-radius: 100%;
-  transform: translate(65px,-135px);
+  transform: translate(70px,-133px);
+  cursor: pointer;
 }
 
