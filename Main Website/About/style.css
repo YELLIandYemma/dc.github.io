@@ -45,34 +45,73 @@ body{
     transform: translate(0,-100000px);
 }
 #Childhood{
+    display: flex;
     background-color:#66ff33 ;
     width: fit-content;
     height: fit-content;
-    transform: translate(5cm,2cm);
+    justify-content: center;
+    margin: 90px;
 }
 #childhoodpt2{
     background-color:#66ff33 ;
     width: fit-content;
     height: fit-content;        
-    transform: translate(20cm,5cm);
+    justify-content: center;
+    margin: 90px;
 }
 #collageLife{
     background-color:#66ff33 ;
     width: fit-content;
    height: fit-content;     
-    transform: translate(5cm,8cm);
+   justify-content: center;
+   margin: 90px;
 }
 #Path-to-American-Academia{
     background-color:#66ff33 ;
     width: fit-content;
     height: fit-content;   
-    transform: translate(20cm,11cm); 
+    justify-content: center;
+    margin: 90px;
 }
 #Academic-Journey-and-Residences{
-     transform: translate(5cm,14cm);
+    justify-content: center;
      background-color: #66ff33;
     width: fit-content;
-    height: fit-content;  } 
+    height: fit-content;
+    margin: 90px;
+  }
+
+#Legacy-and-Residences{
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #66ff33;
+    margin: 90px;
+}
+
+#Philosophy-of-systematization{
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #66ff33;
+    margin: 90px;
+}
+
+#Work-With-Students{
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #66ff33;
+    margin: 90px;
+}
+
+#Work-With-Students-2{
+    background-color: #66ff33   ;
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 90px;
 }
 header{
     transform: translateY(0.5cm);
