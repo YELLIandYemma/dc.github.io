@@ -130,10 +130,14 @@ input:focus{
   margin-top: 30px;
   border-radius: 5px;
   border-color: transparent;
-  background-color: rgba(14, 141, 179, 0.32);
+  background-color:rgba(14, 141, 179, 0.793);;
   color:white;
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
+}
+#submit:hover{
+  background-color: rgba(9, 96, 123, 0.993);
+  transition-delay: 0.1s;
 }
