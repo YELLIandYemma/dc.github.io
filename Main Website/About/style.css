@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Poppins:wght@200&family=Raleway:ital,wght@1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +11,9 @@ body{
     overflow-x: hidden;
     background-color: #131316;
     color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .preloader {
@@ -123,14 +127,22 @@ button{
 }
 
 button{
-    background-color: transparent;
+    background: linear-gradient(#1095c1 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
     font-size: 15px;
     border-color: transparent;
     margin: 1cm;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    transition: .4s,background-position 0s;
+    height:3em;
+    width:80px;
+    border-radius: 100px;
 }
 button:hover{
-    background-color: #cc66ff;
     cursor: pointer;
+    --p: 100%;
+   
 
 }
 body::-webkit-scrollbar {
@@ -149,4 +161,3 @@ body::-webkit-scrollbar {
     outline: 1px solid transparent;
    
   }
-  
