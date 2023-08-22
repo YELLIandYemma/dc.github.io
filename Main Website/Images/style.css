@@ -18,11 +18,35 @@ body{
 
     .container{
     display: grid;
-  
-
+    transform: translate(0cm,2cm);
 }
 
-    button{
+#image-1{
+    transform: translateX(-7cm);
+}
+
+#image-2{
+    transform: translate(7cm,-6cm);
+}
+
+#image-3{
+    transform: translate(-7cm,-3cm);
+}
+#image-4{
+    transform: translate(7cm,-9cm);
+}
+#image-5{
+    transform: translateY(-7cm);
+}
+
+#image-6{
+    transform: translate(-7cm,-3cm);
+}
+#image-7{
+    transform: translate(7cm,-13cm);
+}
+   
+button{
         color: white;
     }
     
