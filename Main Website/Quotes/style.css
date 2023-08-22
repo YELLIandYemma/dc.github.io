@@ -20,15 +20,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateY(-2cm);
 }
 
 #Quote-1{
-    transform: translate(0cm,2cm);
+    display: flex;
+    transform: translate(7.5cm,3cm);
+}
+
+#Quote-2{
+    display: flex;
+   
+   transform: translate(-9cm,10cm);
+}
+
+#Quote-3{
+    transform: translate(-10cm,12cm);
 }
 
 
 button{
-    background: linear-gradient(#1095c1 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
+    background: linear-gradient(#909090 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
     font-size: 15px;
     border-color: transparent;
     margin: 1cm;
@@ -40,6 +52,8 @@ button{
     width:80px;
     border-radius: 100px;
     color:white;
+    border-color: white;
+    border-style: solid;
 }
 button:hover{
     cursor: pointer;
