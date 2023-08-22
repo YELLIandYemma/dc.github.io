@@ -14,7 +14,6 @@ body{
     font-family: 'Chakra Petch', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
-    overflow-y: scroll;
 }
 .container{
     display: flex;
@@ -37,7 +36,9 @@ body{
 #Quote-3{
     transform: translate(-10cm,12cm);
 }
-
+button{
+    color: white;
+}
 
 button{
     background: linear-gradient(#909090 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
@@ -75,5 +76,5 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background-color: whitesmoke;
     outline: 1px solid transparent;
-   
+  
   }
