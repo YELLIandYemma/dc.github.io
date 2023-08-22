@@ -15,6 +15,13 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
+
+    .container{
+    display: grid;
+  
+
+}
+
     button{
         color: white;
     }
