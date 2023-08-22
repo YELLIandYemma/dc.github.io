@@ -127,7 +127,7 @@ button{
 }
 
 button{
-    background: linear-gradient(#1095c1 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
+    background: linear-gradient(#909090 0 0) calc(100% - var(--p,0%)) / var(--p,0%) no-repeat;
     font-size: 15px;
     border-color: transparent;
     margin: 1cm;
@@ -138,6 +138,8 @@ button{
     height:3em;
     width:80px;
     border-radius: 100px;
+    border-style: solid;
+    border-color: #ffffff;
 }
 button:hover{
     cursor: pointer;
